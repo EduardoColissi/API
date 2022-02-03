@@ -1,28 +1,5 @@
-# Adonis API application
+### Como iniciar o projeto:
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+1 - Rode o comando "npm install" para baixar as dependencias do projeto;
+2 - Crie um arquivo com o nome .env na raiz do projeto, copie o conteúdo do arquivo .env.example e preencha com as credenciais de acordo com suas credenciais do PostgreSQL;
+3 - Rode o comando "adonis migration:run" e em seguida o comando "npm start" ou "yarn start".
